@@ -23,6 +23,9 @@ Once installed, you should be able to do `import abcdp` without any error.
 
 ## How to run the experiments?
 
+### Flip probability plot
+
+- Run `./ABCDP/code/abcdp/prob_flip.py` in order to get Figure 1.
 ### Toy experiment
  - Run `./ABCDP/code/abcdp/auxiliary_files/run_toy_example.py` to compute the ABCDP algortihm for different parameter settings. 
  - To obtain Figure 2, run  `./ABCDP/code/abcdp/figure_toy_example.py`. 
