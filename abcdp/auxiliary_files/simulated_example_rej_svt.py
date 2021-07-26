@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 import os
 import numpy as np
 import scipy.stats as stats
-import auxiliary_files.kernel as kernel
-import auxiliary_files.feature as feature
-import auxiliary_files.util as util
-import auxiliary_files.abcbase as ab
+import kernel as kernel
+import feature as feature
+import util as util
+import abcbase as ab
 import seaborn as sns
 #from autodp import privacy_calibrator
 import sys

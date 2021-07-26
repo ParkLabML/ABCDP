@@ -25,10 +25,11 @@ Once installed, you should be able to do `import abcdp` without any error.
 
 ### Flip probability plot
 
-- Run `./ABCDP/code/abcdp/prob_flip.py` in order to get Figure 1.
+- Run `./ABCDP/abcdp/prob_flip.py` in order to get Figure 1.
+
 ### Toy experiment
- - Run `./ABCDP/code/abcdp/auxiliary_files/run_toy_example.py` to compute the ABCDP algortihm for different parameter settings. 
- - To obtain Figure 2, run  `./ABCDP/code/abcdp/figure_toy_example.py`. 
+ - Run `./ABCDP/abcdp/auxiliary_files/run_toy_example.py` to compute the ABCDP algortihm for different parameter settings. 
+ - To obtain Figure 2, run  `./ABCDP/abcdp/figure_toy_example.py`. 
 
 ### Coronavirus outbreak data
 
@@ -36,8 +37,8 @@ Once installed, you should be able to do `import abcdp` without any error.
 
 ### Modelling Tuberculosis (TB) Outbreak
 
-- Run `test_TB.py` file to get the posterior samples obtained from ABCDP algortihm.
-- To obtain Figure 5 run `./ABCDP/code/abcdp/figure_covid.py` file for `epsilon_total` equal to 13, 22, 44 and 1e6 (non-private case).
+- Run `./ABCDP/abcdp/auxiliary_files/test_TB.py` file to get the posterior samples obtained from ABCDP algortihm.
+- To obtain Figure 5 run `./ABCDP/abcdp/figure_covid.py` file for `epsilon_total` equal to 13, 22, 44 and 1e6 (non-private case).
 
 
 

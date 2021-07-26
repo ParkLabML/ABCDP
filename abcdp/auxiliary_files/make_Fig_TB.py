@@ -1,7 +1,7 @@
 # this is for making histogram from the posterior distribution
 
-import auxiliary_files.disease_simulator as si
-import auxiliary_files.operations as ops
+import disease_simulator as si
+import operations as ops
 
 import numpy as np
 import matplotlib.pyplot as plt

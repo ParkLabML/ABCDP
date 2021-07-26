@@ -1,4 +1,4 @@
-import auxiliary_files.operations as ops
+import operations as ops
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,9 +6,9 @@ import operator
 import sys
 import os
 import random
-import auxiliary_files.feature as feature
-import auxiliary_files.util as util
-import auxiliary_files.abcbase as ab
+import feature as feature
+import util as util
+import abcbase as ab
 
 # define a simulator and prior
 def simulator_func(param):
