@@ -37,8 +37,8 @@ Once installed, you should be able to do `import abcdp` without any error.
 
 ### Modelling Tuberculosis (TB) Outbreak
 
-- Run `./ABCDP/abcdp/auxiliary_files/test_TB.py` file to get the posterior samples obtained from ABCDP algortihm.
-- To obtain Figure 5 run `./ABCDP/abcdp/figure_covid.py` file for `epsilon_total` equal to 13, 22, 44 and 1e6 (non-private case).
+- Run `./ABCDP/abcdp/auxiliary_files/test_TB.py` file to get the results.
+- For plotting Figure 5 run `./ABCDP/abcdp/figure_covid.py`file.
 
 
 
